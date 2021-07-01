@@ -1,0 +1,10 @@
+set FLASK_APP=stream_imag.py
+flask run --host=0.0.0.0
+
+
+#video stream
+
+set FLASK_APP = stream_video.py
+flask run --host=192.168.1.37
+ 
+http://192.168.1.37:5000/
